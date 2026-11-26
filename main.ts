@@ -1,4 +1,5 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-const LINE = "Synchronized spreadsheet diving: two athletes, one shared workbook, gold for the cleanest pivot table, instant disqualification for crying at a circular reference.";
+// Four hours, one ticket, zero patience: the podium is a waiting room.
+const LINE = "Competitive waiting-room sitting: athletes hold the same numbered ticket for four hours, gold to whoever complains least, bronze to the one who asked 'how much longer?'.";
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
